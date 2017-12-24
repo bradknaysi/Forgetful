@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Forgetful
+//  ForgetStuff
 //
-//  Created by Bradley Knaysi on 12/24/17.
+//  Created by Bradley Knaysi on 12/23/17.
 //  Copyright © 2017 Bradley Knaysi. All rights reserved.
 //
 
