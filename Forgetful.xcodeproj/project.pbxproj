@@ -12,6 +12,8 @@
 		1E4B2ACC1FF068490072FE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B2ACA1FF068490072FE08 /* Main.storyboard */; };
 		1E4B2ACE1FF068490072FE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B2ACD1FF068490072FE08 /* Assets.xcassets */; };
 		1E4B2AD11FF068490072FE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4B2ACF1FF068490072FE08 /* LaunchScreen.storyboard */; };
+		1EE0457F1FF0B57300135209 /* TakenPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0457E1FF0B57300135209 /* TakenPhotoViewController.swift */; };
+		1EE045851FF0B9EF00135209 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1EE045841FF0B9EF00135209 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1E4B2ACD1FF068490072FE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4B2AD01FF068490072FE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E4B2AD21FF068490072FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE0457E1FF0B57300135209 /* TakenPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakenPhotoViewController.swift; sourceTree = "<group>"; };
+		1EE045841FF0B9EF00135209 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				1E4B2AC61FF068490072FE08 /* AppDelegate.swift */,
 				1E4B2AC81FF068490072FE08 /* ViewController.swift */,
 				1E4B2ACA1FF068490072FE08 /* Main.storyboard */,
+				1EE045841FF0B9EF00135209 /* Resnet50.mlmodel */,
+				1EE0457E1FF0B57300135209 /* TakenPhotoViewController.swift */,
 				1E4B2ACD1FF068490072FE08 /* Assets.xcassets */,
 				1E4B2ACF1FF068490072FE08 /* LaunchScreen.storyboard */,
 				1E4B2AD21FF068490072FE08 /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE0457F1FF0B57300135209 /* TakenPhotoViewController.swift in Sources */,
 				1E4B2AC91FF068490072FE08 /* ViewController.swift in Sources */,
+				1EE045851FF0B9EF00135209 /* Resnet50.mlmodel in Sources */,
 				1E4B2AC71FF068490072FE08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
