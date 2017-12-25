@@ -1,4 +1,5 @@
 # Forgetful
+Developer: Brad Knaysi (bak9cu@virginia.edu)
 iOS app that detects objects and allows the user to takePhotos for annotation
 
 Uses the new iOS 11 Vision API to implement enable the user to identify objects using their camera.
