@@ -75,13 +75,13 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         if segue.identifier == "takenPhoto_Segue" {
             if let takenPhotoVC = segue.destination as? TakenPhotoViewController {
             
-            // capturing camera image with UI labels embeded
+                // capturing camera image with UI labels embeded
                 //let img: UIImage = self.view.renderToImage()
                 //let img = UIImage.imageWithView(view: self.view)
                 let img = self.view.asImage()
 
-            // setting TakenPhotoViewController's UIImageView
-            takenPhotoVC.image = img
+                // setting TakenPhotoViewController's UIImageView
+                takenPhotoVC.image = img
             }
         }
     }
