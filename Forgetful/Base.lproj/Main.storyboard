@@ -25,8 +25,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sul-6O-VNm">
-                                <rect key="frame" x="16" y="617" width="34" height="30"/>
-                                <state key="normal" title="Save"/>
+                                <rect key="frame" x="16" y="617" width="54" height="30"/>
+                                <state key="normal" title="Camera"/>
                                 <connections>
                                     <action selector="PhotoButton_TouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xr-Jf-sXv"/>
                                 </connections>
@@ -62,8 +62,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2R-qR-aou">
+                                <rect key="frame" x="16" y="617" width="34" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savePhotoButton:" destination="DlU-t2-oCu" eventType="touchUpInside" id="ald-Ig-mb4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cbX-8O-eQb" firstAttribute="bottom" secondItem="h2R-qR-aou" secondAttribute="bottom" constant="20" id="6S6-Yb-v5e"/>
+                            <constraint firstItem="h2R-qR-aou" firstAttribute="leading" secondItem="cbX-8O-eQb" secondAttribute="leading" constant="16" id="FRO-Pn-W1I"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cbX-8O-eQb"/>
                     </view>
                     <connections>
